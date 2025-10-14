@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\medme\\3DGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\medme\\3DGame\\Assets\\playerScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\playerScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\medme\\3DGame\\Assets\\swimArea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\swimArea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\medme\\3DGame\\Library\\PackageCache\\com.unity.terrain-tools@dbe886685ae0\\Editor\\TerrainTools\\BrushControllers\\BrushSizeVariator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.terrain-tools@dbe886685ae0\\Editor\\TerrainTools\\BrushControllers\\BrushSizeVariator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\medme\\3DGame\\Assets\\MyBall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MyBall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\medme\\3DGame\\Assets\\FollowCamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\FollowCamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "swimArea.cs",
+              "DocumentMoniker": "C:\\Users\\medme\\3DGame\\Assets\\swimArea.cs",
+              "RelativeDocumentMoniker": "Assets\\swimArea.cs",
+              "ToolTip": "C:\\Users\\medme\\3DGame\\Assets\\swimArea.cs",
+              "RelativeToolTip": "Assets\\swimArea.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T13:58:50.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BrushSizeVariator.cs",
+              "DocumentMoniker": "C:\\Users\\medme\\3DGame\\Library\\PackageCache\\com.unity.terrain-tools@dbe886685ae0\\Editor\\TerrainTools\\BrushControllers\\BrushSizeVariator.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.terrain-tools@dbe886685ae0\\Editor\\TerrainTools\\BrushControllers\\BrushSizeVariator.cs",
+              "ToolTip": "C:\\Users\\medme\\3DGame\\Library\\PackageCache\\com.unity.terrain-tools@dbe886685ae0\\Editor\\TerrainTools\\BrushControllers\\BrushSizeVariator.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.terrain-tools@dbe886685ae0\\Editor\\TerrainTools\\BrushControllers\\BrushSizeVariator.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAYwGQAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T15:40:24.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "playerScript.cs",
+              "DocumentMoniker": "C:\\Users\\medme\\3DGame\\Assets\\playerScript.cs",
+              "RelativeDocumentMoniker": "Assets\\playerScript.cs",
+              "ToolTip": "C:\\Users\\medme\\3DGame\\Assets\\playerScript.cs",
+              "RelativeToolTip": "Assets\\playerScript.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T10:02:04.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FollowCamera.cs",
+              "DocumentMoniker": "C:\\Users\\medme\\3DGame\\Assets\\FollowCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\FollowCamera.cs",
+              "ToolTip": "C:\\Users\\medme\\3DGame\\Assets\\FollowCamera.cs",
+              "RelativeToolTip": "Assets\\FollowCamera.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T09:11:15.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyBall.cs",
+              "DocumentMoniker": "C:\\Users\\medme\\3DGame\\Assets\\MyBall.cs",
+              "RelativeDocumentMoniker": "Assets\\MyBall.cs",
+              "ToolTip": "C:\\Users\\medme\\3DGame\\Assets\\MyBall.cs",
+              "RelativeToolTip": "Assets\\MyBall.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T18:11:16.312Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

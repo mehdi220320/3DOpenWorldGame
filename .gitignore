@@ -1,0 +1,106 @@
+# =============== #
+# Unity Generated #
+# =============== #
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+Assets/
+# Avoid committing build artifacts
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserstate
+*.xcuserdata/
+
+# Cache folders
+sysinfo.txt
+*.pidb
+*.suo
+*.user
+*.userprefs
+*.csproj
+*.unityproj
+*.sln
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+
+# =============== #
+# OS Generated    #
+# =============== #
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# =============== #
+# IDE / Editor    #
+# =============== #
+.vscode/
+.idea/
+*.code-workspace
+*.Rider/
+*.sublime-workspace
+*.sublime-project
+
+# =============== #
+# Unity Collaborate or Plastic SCM #
+# =============== #
+.collabignore
+PlasticSCM/
+
+# =============== #
+# Crash and Debug #
+# =============== #
+sysinfo.txt
+*.stacktrace
+
+# =============== #
+# Builds and Exports #
+# =============== #
+[Bb]uild/
+[Bb]uilds/
+[Bb]in/
+[Dd]ebug/
+[Rr]elease/
+*.zip
+
+# =============== #
+# Packages        #
+# =============== #
+# Exclude local packages if you use Git-based dependency management
+Packages/com.*
+# But keep manifest and lock
+!Packages/manifest.json
+!Packages/packages-lock.json
+
+# =============== #
+# Addressables / StreamingAssets #
+# =============== #
+/Assets/AddressableAssetsData/*
+!/Assets/AddressableAssetsData/*.meta
+/Assets/StreamingAssets/*
+!/Assets/StreamingAssets/*.meta
+
+# =============== #
+# Asset Store Tools #
+# =============== #
+/Assets/AssetStoreTools*
+
+# =============== #
+# JetBrains Rider #
+# =============== #
+.idea/
+*.sln.iml
