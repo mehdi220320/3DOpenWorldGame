@@ -1,6 +1,6 @@
-# =============== #
-# Unity Generated #
-# =============== #
+# ========================
+# Unity Generated
+# ========================
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -9,8 +9,17 @@
 [Ll]ogs/
 UserSettings/
 MemoryCaptures/
-Assets/
-# Avoid committing build artifacts
+
+# ========================
+# Ignore all folders inside Assets, but keep root files
+# ========================
+Assets/*/
+!Assets/*.*
+!Assets/*.meta
+
+# ========================
+# Build Artifacts
+# ========================
 *.apk
 *.aab
 *.unitypackage
@@ -21,7 +30,9 @@ Assets/
 *.xcuserstate
 *.xcuserdata/
 
-# Cache folders
+# ========================
+# Cache and Project Files
+# ========================
 sysinfo.txt
 *.pidb
 *.suo
@@ -37,17 +48,17 @@ sysinfo.txt
 *.VC.db
 *.pidb.meta
 
-# =============== #
-# OS Generated    #
-# =============== #
+# ========================
+# OS Generated
+# ========================
 .DS_Store
 Thumbs.db
 ehthumbs.db
 desktop.ini
 
-# =============== #
-# IDE / Editor    #
-# =============== #
+# ========================
+# IDE / Editor
+# ========================
 .vscode/
 .idea/
 *.code-workspace
@@ -55,21 +66,21 @@ desktop.ini
 *.sublime-workspace
 *.sublime-project
 
-# =============== #
-# Unity Collaborate or Plastic SCM #
-# =============== #
+# ========================
+# Unity Collaborate or Plastic SCM
+# ========================
 .collabignore
 PlasticSCM/
 
-# =============== #
-# Crash and Debug #
-# =============== #
+# ========================
+# Crash and Debug
+# ========================
 sysinfo.txt
 *.stacktrace
 
-# =============== #
-# Builds and Exports #
-# =============== #
+# ========================
+# Builds and Exports
+# ========================
 [Bb]uild/
 [Bb]uilds/
 [Bb]in/
@@ -77,30 +88,28 @@ sysinfo.txt
 [Rr]elease/
 *.zip
 
-# =============== #
-# Packages        #
-# =============== #
-# Exclude local packages if you use Git-based dependency management
+# ========================
+# Packages
+# ========================
 Packages/com.*
-# But keep manifest and lock
 !Packages/manifest.json
 !Packages/packages-lock.json
 
-# =============== #
-# Addressables / StreamingAssets #
-# =============== #
+# ========================
+# Addressables / StreamingAssets
+# ========================
 /Assets/AddressableAssetsData/*
 !/Assets/AddressableAssetsData/*.meta
 /Assets/StreamingAssets/*
 !/Assets/StreamingAssets/*.meta
 
-# =============== #
-# Asset Store Tools #
-# =============== #
+# ========================
+# Asset Store Tools
+# ========================
 /Assets/AssetStoreTools*
 
-# =============== #
-# JetBrains Rider #
-# =============== #
+# ========================
+# JetBrains Rider
+# ========================
 .idea/
 *.sln.iml
