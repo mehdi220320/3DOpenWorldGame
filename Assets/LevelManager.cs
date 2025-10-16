@@ -6,40 +6,58 @@ public class LevelManager : MonoBehaviour
 {
     [Header("UI References")]
     public GameObject winImage;
+    public GameObject loseImage;
     
     [Header("Game Objects")]
     public GameObject player;
     public GameObject[] bears;
     
     private bool levelComplete = false;
+    private bool playerDied = false;
 
     void Start()
     {
+        InitializeUI();
+    }
+
+    void OnEnable()
+    {
+        InitializeUI();
+    }
+
+    void InitializeUI()
+    {
         if (winImage != null)
             winImage.SetActive(false);
+            
+        if (loseImage != null)
+            loseImage.SetActive(false);
+            
+        levelComplete = false;
+        playerDied = false;
     }
 
     void Update()
     {
-        if (player == null)
+        if (!playerDied && player == null)
         {
-            StartCoroutine(RestartLevel());
+            playerDied = true;
+            HandlePlayerDeath();
         }
+        string currentScene = SceneManager.GetActiveScene().name;
 
-        if (!levelComplete && AllBearsDead())
+        if (!levelComplete && !playerDied && AllBearsDead() && currentScene != "Level3")
         {
             levelComplete = true;
-            StartCoroutine(HandleLevelWin());
+            HandleLevelWin();
         }
     }
 
     bool AllBearsDead()
     {
-        // Make sure we have bears to check
         if (bears == null || bears.Length == 0)
             return false;
 
-        // Check if all bears are destroyed
         foreach (var bear in bears)
         {
             if (bear != null)
@@ -48,33 +66,49 @@ public class LevelManager : MonoBehaviour
         return true;
     }
 
-    IEnumerator RestartLevel()
+    void HandlePlayerDeath()
     {
-        yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        if (loseImage != null)
+            loseImage.SetActive(true);
+            
+        StartCoroutine(RestartLevel());
     }
 
-    IEnumerator HandleLevelWin()
+    void HandleLevelWin()
     {
         if (winImage != null)
             winImage.SetActive(true);
+            
+        StartCoroutine(LoadNextLevel());
+    }
+
+    IEnumerator RestartLevel()
+    {
+        yield return new WaitForSeconds(2f);
         
+        if (loseImage != null)
+            loseImage.SetActive(false);
+            
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    IEnumerator LoadNextLevel()
+    {
         yield return new WaitForSeconds(2f);
         
         if (winImage != null)
             winImage.SetActive(false);
-
-        string currentScene = SceneManager.GetActiveScene().name;
         
+        string currentScene = SceneManager.GetActiveScene().name;
+
         if (currentScene == "Level1")
         {
             SceneManager.LoadScene("Level2");
         }
         else if (currentScene == "Level2")
         {
-            if (winImage != null)
-                winImage.SetActive(true);
-            SceneManager.LoadScene("Level1");
+            Debug.Log("All levels finished! Level3...");
+            SceneManager.LoadScene("Level3");
         }
     }
 }
